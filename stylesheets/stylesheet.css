@@ -57,7 +57,7 @@ body {
 }
 
 a {
-  color: #d5000d;
+   color: #4793D0
 }
 a:hover {
   color: #c5000c;
@@ -67,7 +67,10 @@ header {
   padding-top: 35px;
   padding-bottom: 25px;
 }
-
+#soabridge_logo {
+ align:left;
+ float:left;
+}
 header h1 {
   font-family: 'Chivo', 'Helvetica Neue', Helvetica, Arial, serif; font-weight: 900;
   letter-spacing: -1px;
@@ -85,7 +88,7 @@ header h2 {
 }
 
 #container {
-  background: transparent url(../images/highlight-bg.jpg) 50% 0 no-repeat;
+  background: transparent url(../images/highlight-bg.jpg) 50% 0 no-repeat; */
   min-height: 595px;
 }
 
@@ -116,7 +119,8 @@ a.button {
   font-size: 15px;
   padding: 12px 8px 12px 8px;
   display: block;
-  float: left;
+  /*float: left;  */
+  float: right;
   width: 179px;
   margin-right: 14px;  
   background: #fdfdfd; /* Old browsers */
@@ -165,6 +169,7 @@ a.button span {
   margin-right: 0;
 }
 
+/* Removed the code section on the page - if we need it we can uncomment this section
 code, pre {
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal;
   color: #222;
@@ -191,7 +196,7 @@ pre code {
   border: none;
   padding: 0;
 }
-
+*/
 ul, ol, dl {
   margin-bottom: 20px;
 }
@@ -252,7 +257,7 @@ h2 {
 } 
 
 h3 {
-  color: #d5000d;
+  color: #4793D0;
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 8px;
